@@ -27,7 +27,7 @@ public class UserDaoImpl extends Dao<User> {
 //            // сначала удалим старый вариант таблицы
 //            st.execute("DROP TABLE IF EXISTS first.users;");
             // создадим новый вариант таблицы
-            st.execute("CREATE TABLE IF NOT EXISTS first.users (" +
+            st.execute("CREATE TABLE IF NOT EXISTS users (" +
                     "  `id` INT NOT NULL AUTO_INCREMENT, " +
                     "  `login` VARCHAR(45) NOT NULL, " +
                     "  `password` VARCHAR(45) NOT NULL, " +
